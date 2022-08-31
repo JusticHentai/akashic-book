@@ -1,16 +1,21 @@
 const { app, BrowserWindow } = require('electron')
 
 const createWindow = async () => {
-    await app.whenReady()
+  await app.whenReady()
 
-    const win = new BrowserWindow({
-        width: 800,
-        height: 600
-    })
+  const win = new BrowserWindow({
+    width: 800,
+    height: 600,
+  })
 
-    console.log('i am here')
+  console.log('i am here')
 
-    await win.loadURL(' http://localhost:3000')
+  await win.loadURL(' http://localhost:3000')
+
+  const a = {
+    nihao: 's',
+    wihao: 'ss',
+  }
 }
 
 createWindow()
