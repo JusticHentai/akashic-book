@@ -11,11 +11,6 @@ const createWindow = async () => {
   console.log('i am here')
 
   await win.loadURL(' http://localhost:3000')
-
-  const a = {
-    nihao: 's',
-    wihao: 'ss',
-  }
 }
 
 createWindow()
