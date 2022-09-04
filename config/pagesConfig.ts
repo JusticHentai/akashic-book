@@ -3,6 +3,8 @@
  */
 const config = {
   title: '阿卡西记录',
+  keywords: '阿卡西记录',
+  description: '记录一切的数据库',
 }
 
 export default config
