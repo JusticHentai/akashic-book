@@ -1,0 +1,29 @@
+
+> next-pnpm-test@0.1.0 lint C:\DouzaGroup\akashic\packages\akashic-book
+> next lint
+
+info  - SWC minify release candidate enabled. https://nextjs.link/swcmin
+
+./pages/head/head.tsx
+1:1  Warning: Replace `import·Head·from·'next/head'⏎import·{·pagesConfig·}·from·'@/config` with `import·{·pagesConfig·}·from·'@/config'⏎import·Head·from·'next/head`  prettier/prettier
+
+./pages/test/lib/common/index.tsx
+7:6  Warning: React Hook useEffect has a missing dependency: 'props.loading'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./pages/test/lib/nextImage/image.tsx
+1:8  Warning: Replace `NextImage·from·'next/i` with `{·imageLoad·}·from·'@/utils/loadI`  prettier/prettier
+1:8  Warning: 'NextImage' is defined but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+1:23  Warning: 'C:\DouzaGroup\akashic\node_modules\.pnpm\next@12.2.5_vuxjv6o7qhupugnkyf7vyqsruq\node_modules\next\image.d.ts' imported multiple times.  import/no-duplicates
+2:10  Warning: Replace `useEffect,·useRef,·MutableRefObject·}·from·'react'⏎import·nextImage·from·'next/image'⏎import·{·imageLoad·}·from·'@/utils/loadImage` with `MutableRefObject,·useEffect,·useRef·}·from·'react`  prettier/prettier
+3:8  Warning: 'nextImage' is defined but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+3:23  Warning: 'C:\DouzaGroup\akashic\node_modules\.pnpm\next@12.2.5_vuxjv6o7qhupugnkyf7vyqsruq\node_modules\next\image.d.ts' imported multiple times.  import/no-duplicates
+5:20  Warning: Delete `,·createPortal`  prettier/prettier
+5:22  Warning: 'createPortal' is defined but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+33:11  Warning: 'width' is assigned a value but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+33:18  Warning: 'height' is assigned a value but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+
+./pages/_app.tsx
+1:1  Warning: Insert `import·init·from·'@/utils/init'⏎`  prettier/prettier
+2:24  Warning: Delete `t'⏎import·init·from·'@/utils/ini`  prettier/prettier
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
