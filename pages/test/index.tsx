@@ -1,7 +1,5 @@
-import styles from './styles/index.module.scss'
-
-// import TestImage from './lib/nextImage'
 import Common from './lib/common'
+import styles from './styles/index.module.scss'
 
 const Test = () => {
   return (
