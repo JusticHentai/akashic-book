@@ -8,8 +8,6 @@ const createWindow = async () => {
     height: 600,
   })
 
-  console.log('i am here')
-
   await win.loadURL(' http://localhost:3000')
 }
 

@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next dev -p 8081",
     "electron:dev": "electron .",
     "lint": "next lint",
     "start": "next start"

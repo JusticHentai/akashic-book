@@ -6,6 +6,7 @@ const nextConfig = {
   sassOptions: {
     additionalData: `@import "./global.scss";`,
   },
+  crossOrigin: 'anonymous',
 }
 
 module.exports = nextConfig
