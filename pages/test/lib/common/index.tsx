@@ -3,8 +3,7 @@ import { useEffect } from 'react'
 const Common = (props: { loading: boolean }) => {
   useEffect(() => {
     console.log(props.loading)
-    console.error('niemama')
-  }, [])
+  }, [props.loading])
 
   return <div>common</div>
 }

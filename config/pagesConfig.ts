@@ -7,4 +7,6 @@ const config = {
   description: '记录一切的数据库',
 }
 
+export type Config = typeof config
+
 export default config

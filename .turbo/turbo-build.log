@@ -4,41 +4,33 @@
 
 info  - Linting and checking validity of types...
 
-./pages/head/head.tsx
-1:1  Warning: Replace `import·Head·from·'next/head'⏎import·{·pagesConfig·}·from·'@/config` with `import·{·pagesConfig·}·from·'@/config'⏎import·Head·from·'next/head`  prettier/prettier
-
 ./pages/test/lib/common/index.tsx
 7:6  Warning: React Hook useEffect has a missing dependency: 'props.loading'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
-
-./pages/_app.tsx
-1:1  Warning: Insert `import·init·from·'@/utils/init'⏎`  prettier/prettier
-2:24  Warning: Delete `t'⏎import·init·from·'@/utils/ini`  prettier/prettier
 
 info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
 info  - Creating an optimized production build...
 info  - Compiled successfully
 info  - Collecting page data...
-info  - Generating static pages (0/7)
-info  - Generating static pages (1/7)
-info  - Generating static pages (3/7)
-info  - Generating static pages (5/7)
-info  - Generating static pages (7/7)
+info  - Generating static pages (0/6)
+info  - Generating static pages (1/6)
+info  - Generating static pages (2/6)
+info  - Generating static pages (4/6)
+info  - Generating static pages (6/6)
 info  - Finalizing page optimization...
 
 Route (pages)                              Size     First Load JS
-┌ ○ /                                      568 B          89.5 kB
+┌ ○ /                                      552 B          89.5 kB
 ├   /_app                                  0 B            88.9 kB
 ├ ○ /404                                   182 B          89.1 kB
 ├ λ /api/hello                             0 B            88.9 kB
-├ ○ /head                                  543 B          89.5 kB
-├ ○ /head/head                             522 B          89.4 kB
+├ ○ /head                                  521 B          89.4 kB
 ├ ○ /test                                  410 B          89.3 kB
 ├   └ css/a386629dd47e9c35.css             100 B
 └ ○ /test/lib/common                       312 B          89.2 kB
 + First Load JS shared by all              88.9 kB
   ├ chunks/framework-66994187bcf4ca48.js   45.5 kB
   ├ chunks/main-13f7edbfbcd9aef7.js        31 kB
-  ├ chunks/pages/_app-fc634f240d71e7bc.js  11.6 kB
+  ├ chunks/pages/_app-eb49792572a68ef3.js  11.6 kB
   └ chunks/webpack-8fa1640cc84ba8fe.js     750 B
 
 λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
