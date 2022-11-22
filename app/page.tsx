@@ -1,8 +1,7 @@
 import { NextPage } from 'next'
-import Head from './head'
 
 const Home: NextPage = () => {
-  return <Head />
+  return <>home</>
 }
 
 export default Home

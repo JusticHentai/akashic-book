@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  experimental: {
+    appDir: true,
+  },
+  reactStrictMode: false,
   swcMinify: true,
   // scss 配置
   sassOptions: {
