@@ -1,5 +1,5 @@
 {
-  "name": "akashic-book",
+  "name": "@justichentai/akashic-book",
   "version": "0.0.1",
   "private": true,
   "main": "main.js",
@@ -11,6 +11,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@justichentai/akashic-components": "workspace:*",
     "@justichentai/resize": "^1.0.1",
     "@justichentai/scss-utils": "^1.0.1",
     "electron": "^20.3.5",

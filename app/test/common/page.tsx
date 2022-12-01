@@ -1,4 +1,4 @@
-const Common = (props: { loading: boolean }) => {
+const Common = () => {
   return (
     <>
       <div>common</div>
