@@ -1,4 +1,4 @@
-import { pagesConfig } from '@/config'
+import pagesConfig from '@/config/pagesConfig'
 
 const Head = () => {
   const { keywords, description, title } = pagesConfig
