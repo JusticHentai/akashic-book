@@ -1,11 +1,17 @@
+'use client'
+
 import { Button } from '@justichentai/akashic-components'
 
 const ButtonPage = () => {
+  console.log(Button)
+
   return (
     <>
-      <Button size={'wohao'}>
-        <div>fuck you</div>
-      </Button>
+      <Button></Button>
+      {/*<Button size={'small'}>*/}
+      {/*  <div>fuck you</div>*/}
+      {/*</Button>*/}
+      <div>nihao</div>
     </>
   )
 }

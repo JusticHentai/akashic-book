@@ -2,7 +2,6 @@
   "name": "@justichentai/akashic-book",
   "version": "0.0.1",
   "private": true,
-  "main": "main.js",
   "scripts": {
     "build": "next build",
     "dev": "next dev -p 8081",
